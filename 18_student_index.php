@@ -14,7 +14,9 @@
     while($row=mysqli_fetch_assoc($result)) {
         $students[] = $row; //them du lieu vao mang
     }
+    
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
